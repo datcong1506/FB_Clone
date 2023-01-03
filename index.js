@@ -21,9 +21,9 @@ const { Socket } = require('dgram');
 mongoose.connect(MONGO_URI, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
-    user: 'Zalo',
-    pass: 'ZaloAdminPassword',
-    dbName: 'Zalo',
+    // user: 'Zalo',
+    // pass: 'ZaloAdminPassword',
+    // dbName: 'Zalo',
     useFindAndModify: false
 })
     .then(res => {
